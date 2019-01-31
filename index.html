@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Tanner E-Commerce</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="header__navBar">
             <div class="logo">
-                <img src="" alt="">
+                <img src="./styles/assets/logo.png" alt="">
             </div>
             <nav>
                 <ul class="nav">
@@ -35,31 +36,33 @@
                 </ul>
             </nav>
         </div>
-        <div class="header__content">
-            <div class="slider__header">
-                <ol class="carousel carousel--vertical">
-                    <li>
-                        <p>01</p>
-                    </li>
-                    <li>
-                        <p>02</p>
-                    </li>
-                    <li>
-                        <p>03</p>
-                    </li>
-                    <li>
-                        <p>04</p>
-                    </li>
-                    <li>
-                        <p>05</p>
-                    </li>
-                </ol>
-            </div>
-            <div class="header__hero">
-                <div class="bag">
-                    <h4 class="bag__title bag__title--lowercase">Designed for utility</h4>
-                    <h2>Navy salt & pepper</h2>
-                    <a href="">Gear <span class="uppercase">up</span></a>
+        <div class="wrapper">
+            <div class="header__content">
+                <div class="slider__header">
+                    <ol class="carousel carousel--vertical">
+                        <li>
+                            <p>01</p>
+                        </li>
+                        <li>
+                            <p>02</p>
+                        </li>
+                        <li>
+                            <p>03</p>
+                        </li>
+                        <li>
+                            <p>04</p>
+                        </li>
+                        <li>
+                            <p>05</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="header__hero">
+                    <div>
+                        <h4>Designed for utility</h4>
+                        <h1>Bags</h1>
+                        <a href="">Gear <span class="uppercase">up</span></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -69,18 +72,30 @@
             <div class="wrapper">
                 <div class="bag__content">
                     <h2 class="bag__title">Voyager Daypack</h2>
-                    <h4>Navy Salt & pepper</h4>
+                    <div class="bag__heading">
+                        <h4>Navy Salt & pepper</h4>
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet atque repellat est
                         necessitatibus consectetur expedita beatae incidunt, hic tempora reiciendis asperiores a cum
                         rerum corporis dolorem eaque unde nulla. Dicta?</p>
                 </div>
                 <div class="bag__slider">
                     <div class="bag__images">
-                        <div class="bag__image"></div>
-                        <div class="bag__image"></div>
-                        <div class="bag__image"></div>
-                        <div class="bag__image"></div>
-                        <div class="bag__image"></div>
+                        <div class="bag__image">
+                            <img src="./styles/assets/voyager1.jpg" alt="">
+                        </div>
+                        <div class="bag__image">
+                            <img src="./styles/assets/voyager2.jpg" alt="">
+                        </div>
+                        <div class="bag__image">
+                            <img src="./styles/assets/voyager3.jpg" alt="">
+                        </div>
+                        <div class="bag__image">
+                            <img src="./styles/assets/voyager4.jpg" alt="">
+                        </div>
+                        <div class="bag__image">
+                            <img src="./styles/assets/voyager5.jpg" alt="">
+                        </div>
                     </div>
                     <ol class="carousel">
                         <li>
@@ -102,22 +117,32 @@
                 </div>
             </div>
         </section>
-        <section class="bag bag--drifter">
+        <section class="bag bag--wilderness">
             <div class="wrapper">
                 <div class="bag__content">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet atque repellat est
                         necessitatibus consectetur expedita beatae incidunt, hic tempora reiciendis asperiores a cum
                         rerum corporis dolorem eaque unde nulla. Dicta?</p>
-                    <h2 class="bag__title">Drifter Dopp Kitt</h2>
+                    <h2 class="bag__title">Wilderness Backpack</h2>
                     <h4>Navy Salt & pepper</h4>
                 </div>
                 <div class="bag__slider">
                     <div class="bag__images">
-                        <div class="bag__image"></div>
-                        <div class="bag__image"></div>
-                        <div class="bag__image"></div>
-                        <div class="bag__image"></div>
-                        <div class="bag__image"></div>
+                        <div class="bag__image">
+                            <img src="./styles/assets/wilderness1.jpg" alt="">
+                        </div>
+                        <div class="bag__image">
+                            <img src="./styles/assets/wilderness2.jpg" alt="">
+                        </div>
+                        <div class="bag__image">
+                            <img src="./styles/assets/wilderness3.jpg" alt="">
+                        </div>
+                        <div class="bag__image">
+                            <img src="./styles/assets/wilderness4.jpg" alt="">
+                        </div>
+                        <div class="bag__image">
+                            <img src="./styles/assets/wilderness5.jpg" alt="">
+                        </div>
                     </div>
                     <ol class="carousel">
                         <li>
@@ -139,7 +164,7 @@
                 </div>
             </div>
         </section>
-        <section class="collection" id="collection">
+        <!-- <section class="collection" id="collection">
             <div class="wrapper">
                 <div class="bag__content">
                     <h2>Tanner Collection</h2>
@@ -166,11 +191,14 @@
                     <a href="">Read More</a>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
     <footer>
+        <!-- <div class="wrapper"> -->
         <div class="footer--top">
-            <img src="" alt="">
+            <div class="logoContainer">
+                <img src="./styles/assets/logo.png" alt="">
+            </div>
             <nav>
                 <ul class="nav">
                     <li class="nav__link">
@@ -213,6 +241,7 @@
                 </ul>
             </div>
         </div>
+        <!-- </div> -->
 
     </footer>
 </body>

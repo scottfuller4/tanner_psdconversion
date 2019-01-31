@@ -1,0 +1,41 @@
+footer {
+    background: lightgrey;
+}
+
+.footer--top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    .logoContainer {
+        width: 15%;
+        padding-top: 20px;
+        img {
+            max-width: 100%;
+        }
+    }
+    .email {
+        width: 15%;
+        form {
+            display: flex;
+        }
+    }
+}
+
+.email button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 0 15px;
+}
+
+.footer--bottom {
+    display: flex;
+}
+
+.social ul {
+    display: flex;
+    margin-left: 50px;
+    li {
+        margin: 0 30px;
+    }
+}

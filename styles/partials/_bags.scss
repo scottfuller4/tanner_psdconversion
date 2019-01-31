@@ -1,0 +1,44 @@
+.bag {
+    &__content {
+        padding: 100px 0;
+        border: 2px solid burlywood;
+        display: flex;
+        width: 50%;
+        align-items: flex-end;
+    }
+    h2, h4 {
+        color: white;
+    }
+}
+
+.bag--voyager {
+    background: lightgrey;
+    // background-image: url(./assets/voyager_hero.jpg);
+    // background-size: 60%;
+    // background-repeat: no-repeat;
+    // background-position: left center;
+    // .bag__content {
+    //     background-image: url(./assets/voyager_hero.jpg);
+    // }
+}
+
+.carousel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bag__slider {
+    margin: 100px 0;
+}
+
+.bag__images {
+    display: flex;
+    margin: 100px 0 50px 0;
+    .bag__image {
+        width: calc(20% - 20px);
+        margin: 0 10px;
+        img {
+            max-width: 100%;
+        }
+    }
+}

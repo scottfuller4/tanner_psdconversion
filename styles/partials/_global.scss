@@ -1,0 +1,61 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 85%;
+}
+
+@mixin headingStyle($fontSize) {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: $fontSize;
+    margin: 0;
+}
+
+h1 {
+    @include headingStyle(5rem);
+}
+
+h2 {
+    @include headingStyle(3rem);
+}
+
+h3 {
+    @include headingStyle(2rem);
+}
+
+h4 {
+    @include headingStyle(1.6rem);
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav {
+    display: flex;
+    li {
+        margin: 0 20px;
+    }
+}
